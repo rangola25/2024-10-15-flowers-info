@@ -5,9 +5,7 @@ body {
   background: linear-gradient(to right, rgb(107, 214, 121), white);
   border: 1px solid black;
   height: 100%; /* חשוב למלא את כל הגובה */
-  
 }
-
 
 .container {
     display: grid;
@@ -33,6 +31,10 @@ body {
     text-align: center;
     padding-top: 2%;
   }
+
+.menu > a:nth-child(1) {
+    color: aqua;
+}
 
   main {
     grid-row: 3 / 10;
