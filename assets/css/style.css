@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(107, 214, 121), white);
+  border: 1px solid black;
+  height: 100%; /* חשוב למלא את כל הגובה */
+}
+
+
+.container {
+    display: grid;
+    height: 100vh; /* למלא את כל גובה המסך */
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    /* grid-template-columns: 1fr, 1fr, 1fr; */
+  }
+  
+  .head {
+    font-size: xx-large;
+    grid-row: 1 / 2;
+    /* grid-column: 1 / 5; */
+    border: 1px solid black;
+    font-weight: bold; /* מדגיש את הכותרת */
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .menu {
+    grid-row: 2 / 3;
+    /* grid-column: 1 / 5; */
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  main {
+    grid-row: 3 / 10;
+    /* grid-column: 1 / 5; */
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    height: 100%;
+  }
+
+  .footer {
+    grid-row: 10 / 11;
+    /* grid-column: 1 / 5; */
+    border: 1px solid black;
+    text-align: center;
+  }
+  
