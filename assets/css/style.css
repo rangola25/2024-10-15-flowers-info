@@ -5,6 +5,7 @@ body {
   background: linear-gradient(to right, rgb(107, 214, 121), white);
   border: 1px solid black;
   height: 100%; /* חשוב למלא את כל הגובה */
+  
 }
 
 
@@ -28,8 +29,9 @@ body {
   .menu {
     grid-row: 2 / 3;
     /* grid-column: 1 / 5; */
-    /* border: 1px solid black; */
+    border: 1px solid black;
     text-align: center;
+    padding-top: 2%;
   }
 
   main {
@@ -45,5 +47,9 @@ body {
     /* grid-column: 1 / 5; */
     border: 1px solid black;
     text-align: center;
+  }
+
+  a {
+    padding: 10%;
   }
   
