@@ -4,7 +4,8 @@ body {
   padding: 0;
   background: linear-gradient(to right, rgb(107, 214, 121), white);
   border: 1px solid black;
-  height: 100%; /* חשוב למלא את כל הגובה */
+  height: 100%; /* חשוב למלא את כל הגובה */ 
+  display: grid !important;
 }
 
 .container {
@@ -41,6 +42,8 @@ body {
     /* grid-column: 1 / 5; */
     /* border: 1px solid black; */
     /* text-align: center; */
+    height: 100%;
+    display: flex;
   }
 
   .footer {
