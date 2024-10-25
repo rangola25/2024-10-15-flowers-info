@@ -57,7 +57,7 @@ body {
   
   .table {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); תא אחד
+    grid-template-columns: repeat(2, 1fr); 
     border: 1px solid black;
     height: 100%; /* תופס חצי מהגובה של ה-ASIDE */
     padding: 10px; /* רווח פנימי */
